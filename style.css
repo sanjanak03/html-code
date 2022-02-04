@@ -1,0 +1,223 @@
+html,body{
+    background-color: skyblue;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+ul {
+  margin-right:400px;
+  margin-top: 2px;
+  float: right;
+}
+.w3-button{
+  float: right;
+
+}
+
+
+li {
+  display: inline;
+}
+.tables{
+  float: right;
+}
+.titlepic{
+float: right;
+margin-top: 500px;
+}
+
+.pic1{
+  margin-left:850px ;
+  margin-top: 550px;
+}
+.pic2
+{
+padding-left: 650px;
+padding-top: 100px;
+margin-top: 10px;
+}
+.pic3{
+  margin-top: 50px;
+  padding-left: 750px;
+}
+.main{
+  font-size:xx-large;
+  margin-top: 2px;
+}
+.header{
+  min-height: 100px;
+  width: 100%;
+  
+}
+.main{
+  padding-top: 300px;
+  margin-left: 150px;
+  font-size: 70px;
+} 
+.heading{
+  padding-top: 30px;
+  margin-left: 100px;
+  font-size: large;
+}
+ul {
+  list-style-type: none;
+  margin-top: 0px;
+  padding-left: 500px;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  word-spacing: 40px;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 8px;
+  text-decoration:none ;
+}
+
+/*-----------Questions---------*/
+
+.Questions
+{
+text-align: center;
+color: darkblue;
+font-size: medium;
+padding-top: 100px;
+}
+h1{
+  font-size: 30px;
+  font-weight: 600;
+}
+p
+{
+  color: black;
+  font-size: small;
+  padding-top:50px;
+   
+  }
+ .section1{
+   background-color: white;
+
+ }
+  .row{
+    margin-top:10px;
+    display: flex;
+    justify-content: space-between
+  }
+  .Questions- col{
+    flex-basis: 31px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding:30px 12px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+footer{
+  background-color: white;
+  font-size: medium;
+}
+.sides{
+  background-color: white;
+  padding:0px;
+  margin:0px;
+  overflow-x: hidden;
+}
+.h2{
+  margin-left: 0px;
+}
+.image{
+  padding-top: 10px;
+float: right;
+  margin-right: 100px;
+}
+.box1{
+  width: 400px;
+  height:150px;
+  background-color:white;
+  margin-left: 300px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-size:medium;
+  box-shadow: 0.5px 0.5px 0.5px #87878A;
+}
+.box2{
+  width: 400px;
+  height:150px;
+  font-size: small;
+  margin-left: 300px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  box-shadow: 0.5px 0.5px 0.5px #87878A;
+}
+
+.quotes{
+  background-color:#F3F5FA;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+.quote-col{
+  padding-left: 100px;
+
+}
+.query{
+text-align: center;
+
+}
+
+.quotes{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 170px;
+}
+image{
+  padding-right: 100px;
+}
+.query{
+  background-color: white;
+  margin-top: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.blogs{
+  background-color: white;
+  margin-top: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  
+  width: 30%;
+  float: left;
+  height: 400px; /* Should be removed. Only for demonstration */
+  margin-top: 0px;
+  box-shadow:1px 1px 1px 1px #87878A;
+  transition: 0.5sec;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row{
+  background-color: white;
+  margin-top: 0px;
+  padding-left: 300px;
+  padding-right: 200px;
+}
+.Blogs{
+  background-color: white;
+  margin-top: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
